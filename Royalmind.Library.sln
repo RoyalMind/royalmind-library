@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Royalmind.Security", "Royalmind.Security\Royalmind.Security.csproj", "{C52F71DA-BA20-4C24-B5E2-84F108D78539}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Royalmind.Security.UnitTest", "Royalmind.Security.UnitTest\Royalmind.Security.UnitTest.csproj", "{95510BCD-A5A5-4554-945C-F52C9A59B3AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BAF1F1BC-5BB0-4FB0-9929-ECA4D0163480}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{64D05EF4-80F0-4DB8-B935-F92D14843D2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C52F71DA-BA20-4C24-B5E2-84F108D78539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52F71DA-BA20-4C24-B5E2-84F108D78539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52F71DA-BA20-4C24-B5E2-84F108D78539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52F71DA-BA20-4C24-B5E2-84F108D78539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95510BCD-A5A5-4554-945C-F52C9A59B3AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95510BCD-A5A5-4554-945C-F52C9A59B3AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95510BCD-A5A5-4554-945C-F52C9A59B3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95510BCD-A5A5-4554-945C-F52C9A59B3AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C52F71DA-BA20-4C24-B5E2-84F108D78539} = {64D05EF4-80F0-4DB8-B935-F92D14843D2C}
+		{95510BCD-A5A5-4554-945C-F52C9A59B3AF} = {64D05EF4-80F0-4DB8-B935-F92D14843D2C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E87ACC2F-8D24-4AC7-8382-5929F60F187B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>Royalmind Development Team</Authors>
+    <Description>Encryption library</Description>
+    <PackageProjectUrl>https://royalmind.net/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/RoyalMind/royalmind-library</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>encryption library;sha256;sha512;md5</PackageTags>
+    <NeutralLanguage>es-419</NeutralLanguage>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
